@@ -1,0 +1,29 @@
+{
+  "name": "tableui",
+  "version": "0.0.1",
+  "description": "头固定的,tbody滚动插件 hello",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"release": "webpack",
+	"example" : "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xin3197/tableui.git)"
+  },
+  "keywords": [
+    "tableui"
+  ],
+  "author": "https://github.com/xin3197",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.2"
+  }
+}
